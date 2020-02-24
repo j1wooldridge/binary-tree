@@ -6,6 +6,7 @@ class BinaryTree
     @left = left
     @right = right
   end
+
 end
 
 def sort(array)
@@ -49,5 +50,6 @@ def build_array(node)
   results
 end
 
-array = [7,4,9,1,6,14,10]
+array = [7, 4, 9, 1, 6, 14, 10]
+
 sort(array)
